@@ -1,0 +1,37 @@
+.banner{
+    width: 100%;
+    height: calc(100vh - 80px);
+    overflow-x:hidden ;
+    position: relative;
+
+    .container{
+        width: 300vw;
+        display: flex;
+        height: 100%;
+        transition: all 1s ease;
+
+        img{
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+
+    .icons{
+        position: absolute;
+        width: fit-content;
+        display: flex;
+        gap: 10px;
+        left: 0;
+        right: 0;
+        bottom: 70px;
+        margin: auto;
+        cursor: pointer;
+
+        .icon{
+            border: 1px solid gray;
+            padding: 7px;
+            font-size: 20px;
+        }
+    }
+}
